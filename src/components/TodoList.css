@@ -1,0 +1,12 @@
+.list_item {
+  margin: 10px 0;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50px;
+  overflow: scroll;
+  color: black;
+  width: 94%;
+  padding: 10px 2%;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,26 @@
+.input_container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.add_btn {
+  border-radius: 50px;
+  background-color: #1473E6;
+  padding: 8px 0;
+  width: 100%;
+  margin: 10px  0;
+  color: white;
+  border: none;
+}
+.input_box_todo {
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+  border-radius: 50px;
+  margin: 0px;
+  border: none;
+}
+.btn {
+  color: white;
+  font-size: 30px;
+}

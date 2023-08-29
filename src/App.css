@@ -1,0 +1,88 @@
+.main_container{
+    width: 100%;
+    min-height: 100vh;
+}
+.main_container_2{
+    background-color: #dee;
+    margin: auto;
+    width: 30%;
+    padding: 40px 20px;
+    border-radius: 7px;
+    color: #000;
+    position: relative;
+    top: 100px;
+
+}
+.app-heading{
+    margin: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    color: black;
+    
+}    
+.app__dark{
+    border: none;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    background-color: #1473E6;
+    border-radius: 50px;
+    padding: 12px;
+    cursor: pointer;
+    Box-shadow: 1px 2px 4px rgba(56, 155, 248, 0.1);
+}
+
+@media (max-width: 800px) {
+    .main_container_2{
+        width: 70%;
+    }     
+}    
+@media (max-width: 1000px) {
+    .main_container_2{
+        width: 60%;
+    }    
+     
+}    
+@media (max-width: 600px) {
+    .main_container_2{
+        width: 80%;
+    }    
+}    
+
+
+body{
+    background: linear-gradient(90deg ,rgb(175, 223, 192) ,rgb(134, 215, 229));
+}    
+
+*{
+    margin: 0;
+    padding: 0;
+}    
+
+
+/* Light mode styles */
+.light {
+    /* background: linear-gradient(90deg ,rgb(175, 223, 192) ,rgb(134, 215, 229)); */
+    color: #000;
+}    
+
+
+/* Dark mode styles */
+.dark {
+    background-color: #244;
+    color: #fff;
+}    
+.dark>.main_container_2 {
+    background-color: darkslategray;
+    color: #fff;
+}    
+.dark>.main_container_2>.app-heading {
+    color: #fff;
+}    
+.dark>.main_container_2>.app-heading {
+    color: #fff;
+}    
+
+
